@@ -77,8 +77,8 @@ def main():
             
             
         insta_crew = Crew(
-            agents=[creative_agent],
-            tasks=[write_copy],
+            agents=[product_competitor_agent, strategy_planner_agent,creative_agent],
+            tasks=[website_analysis, market_analysis, campaign_development,write_copy],
             verbose=True
         )    
         with st.spinner("Generating Insta Post for social media marketing..."):
