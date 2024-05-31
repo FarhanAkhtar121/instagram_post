@@ -46,15 +46,15 @@ ad_copy = copy_crew.kickoff()
 
 # Create Crew responsible for Image
 senior_photographer = agents.senior_photographer_agent()
-chief_creative_diretor = agents.chief_creative_diretor_agent()
+chief_creative_director = agents.chief_creative_director_agent()
 # Create Tasks for Image
 take_photo = tasks.take_photograph_task(senior_photographer, ad_copy, product_website, product_details)
-approve_photo = tasks.review_photo(chief_creative_diretor, product_website, product_details)
+approve_photo = tasks.review_photo(chief_creative_director, product_website, product_details)
 
 image_crew = Crew(
 	agents=[
 		senior_photographer,
-		chief_creative_diretor
+		chief_creative_director
 	],
 	tasks=[
 		take_photo,
