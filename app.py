@@ -17,7 +17,7 @@ def main():
     
     # Load images
     banner_image = "images/NathcorpLogo-Text-side_400x53.png"  # Replace with your banner image path
-    logo_image = "images\png-transparent-goal-definition-product-marketing-do-not-care-text-logo-plan.png"  # Replace with your logo image path
+    logo_image = "images/png-transparent-goal-definition-product-marketing-do-not-care-text-logo-plan.png"  # Replace with your logo image path
     # Display banner image
     st.image(banner_image, use_column_width=True)
     # Create columns for logo, title, and dropdown
