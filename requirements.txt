@@ -11,8 +11,6 @@ backoff==2.2.1
 beautifulsoup4==4.12.3
 blinker==1.8.2
 build==1.2.1
-bzip2==1.0.8
-ca-certificates==2024.3.11
 cachecontrol==0.14.0
 cachetools==5.3.3
 certifi==2024.2.2
@@ -62,7 +60,6 @@ langchain-core==0.1.23
 langchain-openai==0.0.2.post1
 langdetect==1.0.9
 langsmith==0.0.87
-libffi==3.4.4
 lxml==5.2.2
 markdown-it-py==3.0.0
 markupsafe==2.1.5
@@ -76,7 +73,6 @@ nltk==3.8.1
 numpy==1.26.4
 openai==1.12.0
 opencv-python==4.8.1.78
-openssl==3.0.13
 opentelemetry-api==1.22.0
 opentelemetry-exporter-otlp-proto-common==1.22.0
 opentelemetry-exporter-otlp-proto-http==1.22.0
